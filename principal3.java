@@ -2,7 +2,7 @@ package view;
 
 import javax.swing.JOptionPane;
 
-import ex2.ordenar;
+import ex2.ordenar; // importando biblioteca com a recursivade
 
 public class principal3 
 {
@@ -12,7 +12,7 @@ public class principal3
 		ordenar ordenar =new ordenar();
 		
 		 int numero = 14;
-	     while(numero > 13)
+	     while(numero >= 13) // garantindo que o valor não seja maior que 12
 	     {
 	    	 
 	     
